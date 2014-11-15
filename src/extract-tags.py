@@ -1,10 +1,12 @@
-
+# hi, I'm maddy and I'm not too sure what this does. I just barely started learning
+# the url API functions
 # if UnicodeEncodeError happens
 # use this in the console: chcp 65001
 
 import urllib.request
 from bs4 import BeautifulSoup
 
+# a list of urls
 urls = [
 	'http://hackuci.challengepost.com/submissions/23944-snap-map',
 	'http://hackuci.challengepost.com/submissions/23945-hiddenlist',
@@ -74,13 +76,7 @@ for url in urls:
 	dom = BeautifulSoup(html)
 
 	## find tags
-	# platform = dom.find('div', {
-		# 'class' : 'bloc submission-platforms submission-label-list clearfix'
-	# })
-	# platformTags = platform.find_all('li');
-	
-	# for tag in platformTags:
-		# print(tag.span.a.string)
+
 		
 	tags = dom.find_all('span', {
 		'class' : 'cp-tag recognized-tag'
