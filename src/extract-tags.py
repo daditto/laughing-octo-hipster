@@ -96,4 +96,4 @@ for url in urls:
 
 	for key in sorted(count.keys()):
 		print(key, ": ", count[key])
-		
+	# prints key with number of times key is used	
