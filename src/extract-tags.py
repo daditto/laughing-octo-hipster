@@ -6,6 +6,7 @@
 import urllib.request
 from bs4 import BeautifulSoup
 
+# a list of urls
 urls = [
 	'http://hackuci.challengepost.com/submissions/23944-snap-map',
 	'http://hackuci.challengepost.com/submissions/23945-hiddenlist',
