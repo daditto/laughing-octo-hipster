@@ -74,13 +74,7 @@ for url in urls:
 	dom = BeautifulSoup(html)
 
 	## find tags
-	# platform = dom.find('div', {
-		# 'class' : 'bloc submission-platforms submission-label-list clearfix'
-	# })
-	# platformTags = platform.find_all('li');
-	
-	# for tag in platformTags:
-		# print(tag.span.a.string)
+
 		
 	tags = dom.find_all('span', {
 		'class' : 'cp-tag recognized-tag'
