@@ -1,4 +1,5 @@
-
+# hi, I'm maddy and I'm not too sure what this does. I just barely started learning
+# the url API functions
 # if UnicodeEncodeError happens
 # use this in the console: chcp 65001
 
