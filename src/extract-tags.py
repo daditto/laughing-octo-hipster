@@ -1,10 +1,12 @@
-
+# hi, I'm maddy and I'm not too sure what this does. I just barely started learning
+# the url API functions
 # if UnicodeEncodeError happens
 # use this in the console: chcp 65001
 
 import urllib.request
 from bs4 import BeautifulSoup
 
+# a list of urls
 urls = [
 	'http://hackuci.challengepost.com/submissions/23944-snap-map',
 	'http://hackuci.challengepost.com/submissions/23945-hiddenlist',
